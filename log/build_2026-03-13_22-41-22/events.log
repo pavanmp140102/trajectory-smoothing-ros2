@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000743] (trajectory_nav) JobQueued: {'identifier': 'trajectory_nav', 'dependencies': OrderedDict()}
+[0.000784] (trajectory_nav) JobStarted: {'identifier': 'trajectory_nav'}
+[0.099871] (-) TimerEvent: {}
+[0.200122] (-) TimerEvent: {}
+[0.300360] (-) TimerEvent: {}
+[0.400741] (-) TimerEvent: {}
+[0.500963] (-) TimerEvent: {}
+[0.601167] (-) TimerEvent: {}
+[0.701423] (-) TimerEvent: {}
+[0.801660] (-) TimerEvent: {}
+[0.901899] (-) TimerEvent: {}
+[1.002147] (-) TimerEvent: {}
+[1.055450] (trajectory_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/trajectory_nav', 'build', '--build-base', '/home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build', 'install', '--record', '/home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hppmp/Workspace/nav_assignment_ws/src/trajectory_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hppmp', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hppmp', 'OLDPWD': '/home/hppmp/Workspace/nav_assignment_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(nav) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '2685', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hppmp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hppmp', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/hppmp/Workspace/nav/bin:/opt/ros/jazzy/bin:/home/hppmp/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hppmp:@/tmp/.ICE-unix/2543,unix/hppmp:/tmp/.ICE-unix/2543', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cd4160f6_a3b8_4985_9db0_d04c2ad64f3c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(nav)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/hppmp/Workspace/nav', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav', 'ADW_DEBUG_COLOR_SCHEME': 'prefer-dark', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.102232] (-) TimerEvent: {}
+[1.202434] (-) TimerEvent: {}
+[1.302674] (-) TimerEvent: {}
+[1.370828] (trajectory_nav) StdoutLine: {'line': b'running egg_info\n'}
+[1.371217] (trajectory_nav) StdoutLine: {'line': b'creating ../../build/trajectory_nav/trajectory_nav.egg-info\n'}
+[1.393439] (trajectory_nav) StdoutLine: {'line': b'writing ../../build/trajectory_nav/trajectory_nav.egg-info/PKG-INFO\n'}
+[1.393785] (trajectory_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/trajectory_nav/trajectory_nav.egg-info/dependency_links.txt\n'}
+[1.393992] (trajectory_nav) StdoutLine: {'line': b'writing entry points to ../../build/trajectory_nav/trajectory_nav.egg-info/entry_points.txt\n'}
+[1.394308] (trajectory_nav) StdoutLine: {'line': b'writing requirements to ../../build/trajectory_nav/trajectory_nav.egg-info/requires.txt\n'}
+[1.394510] (trajectory_nav) StdoutLine: {'line': b'writing top-level names to ../../build/trajectory_nav/trajectory_nav.egg-info/top_level.txt\n'}
+[1.394766] (trajectory_nav) StdoutLine: {'line': b"writing manifest file '../../build/trajectory_nav/trajectory_nav.egg-info/SOURCES.txt'\n"}
+[1.402793] (-) TimerEvent: {}
+[1.441684] (trajectory_nav) StdoutLine: {'line': b"reading manifest file '../../build/trajectory_nav/trajectory_nav.egg-info/SOURCES.txt'\n"}
+[1.442042] (trajectory_nav) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.442541] (trajectory_nav) StdoutLine: {'line': b"writing manifest file '../../build/trajectory_nav/trajectory_nav.egg-info/SOURCES.txt'\n"}
+[1.442866] (trajectory_nav) StdoutLine: {'line': b'running build\n'}
+[1.443026] (trajectory_nav) StdoutLine: {'line': b'running build_py\n'}
+[1.443271] (trajectory_nav) StdoutLine: {'line': b'creating /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build\n'}
+[1.443482] (trajectory_nav) StdoutLine: {'line': b'creating /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib\n'}
+[1.443596] (trajectory_nav) StdoutLine: {'line': b'creating /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib/trajectory_nav\n'}
+[1.443769] (trajectory_nav) StdoutLine: {'line': b'copying trajectory_nav/__init__.py -> /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib/trajectory_nav\n'}
+[1.443891] (trajectory_nav) StdoutLine: {'line': b'copying trajectory_nav/spline_smoother.py -> /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib/trajectory_nav\n'}
+[1.444122] (trajectory_nav) StdoutLine: {'line': b'copying trajectory_nav/waypoint_loader.py -> /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib/trajectory_nav\n'}
+[1.444251] (trajectory_nav) StdoutLine: {'line': b'running install\n'}
+[1.450366] (trajectory_nav) StdoutLine: {'line': b'running install_lib\n'}
+[1.472969] (trajectory_nav) StdoutLine: {'line': b'creating /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav\n'}
+[1.473194] (trajectory_nav) StdoutLine: {'line': b'copying /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib/trajectory_nav/__init__.py -> /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav\n'}
+[1.473449] (trajectory_nav) StdoutLine: {'line': b'copying /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib/trajectory_nav/spline_smoother.py -> /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav\n'}
+[1.473592] (trajectory_nav) StdoutLine: {'line': b'copying /home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/build/lib/trajectory_nav/waypoint_loader.py -> /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav\n'}
+[1.473963] (trajectory_nav) StdoutLine: {'line': b'byte-compiling /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav/__init__.py to __init__.cpython-312.pyc\n'}
+[1.474317] (trajectory_nav) StdoutLine: {'line': b'byte-compiling /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav/spline_smoother.py to spline_smoother.cpython-312.pyc\n'}
+[1.475418] (trajectory_nav) StdoutLine: {'line': b'byte-compiling /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav/waypoint_loader.py to waypoint_loader.cpython-312.pyc\n'}
+[1.476027] (trajectory_nav) StdoutLine: {'line': b'running install_data\n'}
+[1.476234] (trajectory_nav) StdoutLine: {'line': b'creating /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/share/ament_index\n'}
+[1.476533] (trajectory_nav) StdoutLine: {'line': b'creating /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/share/ament_index/resource_index\n'}
+[1.476737] (trajectory_nav) StdoutLine: {'line': b'creating /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/share/ament_index/resource_index/packages\n'}
+[1.476863] (trajectory_nav) StdoutLine: {'line': b'copying resource/trajectory_nav -> /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/share/ament_index/resource_index/packages\n'}
+[1.477078] (trajectory_nav) StdoutLine: {'line': b'copying package.xml -> /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/share/trajectory_nav\n'}
+[1.477234] (trajectory_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.499892] (trajectory_nav) StdoutLine: {'line': b'Copying ../../build/trajectory_nav/trajectory_nav.egg-info to /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/python3.12/site-packages/trajectory_nav-0.0.0-py3.12.egg-info\n'}
+[1.500836] (trajectory_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[1.502898] (-) TimerEvent: {}
+[1.603124] (-) TimerEvent: {}
+[1.659065] (trajectory_nav) StdoutLine: {'line': b'Installing spline_smoother script to /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/trajectory_nav\n'}
+[1.659455] (trajectory_nav) StdoutLine: {'line': b'Installing waypoint_loader script to /home/hppmp/Workspace/nav_assignment_ws/install/trajectory_nav/lib/trajectory_nav\n'}
+[1.659746] (trajectory_nav) StdoutLine: {'line': b"writing list of installed files to '/home/hppmp/Workspace/nav_assignment_ws/build/trajectory_nav/install.log'\n"}
+[1.685074] (trajectory_nav) CommandEnded: {'returncode': 0}
+[1.703319] (-) TimerEvent: {}
+[1.710434] (trajectory_nav) JobEnded: {'identifier': 'trajectory_nav', 'rc': 0}
+[1.710921] (-) EventReactorShutdown: {}
