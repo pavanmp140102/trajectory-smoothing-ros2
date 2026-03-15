@@ -1,3 +1,0 @@
-[console_scripts]
-spline_smoother = trajectory_nav.spline_smoother:main
-waypoint_loader = trajectory_nav.waypoint_loader:main
