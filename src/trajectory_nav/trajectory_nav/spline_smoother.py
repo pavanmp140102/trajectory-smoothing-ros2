@@ -70,12 +70,12 @@ class SplineSmoother(Node):
 
         # ---- PUBLISH SMOOTHED PATH ----
         smoothed_path = Path()
-        smoothed_path.header.frame_id = "map"
+        smoothed_path.header.frame_id = "odom"
 
         for i in range(len(x_smooth)):
 
             pose = PoseStamped()
-            pose.header.frame_id = "map"
+            pose.header.frame_id = "odom"
 
             pose.pose.position.x = float(x_smooth[i])
             pose.pose.position.y = float(y_smooth[i])
